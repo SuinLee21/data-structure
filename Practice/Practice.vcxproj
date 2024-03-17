@@ -130,6 +130,7 @@
     <ClCompile Include="week2.1.cpp" />
     <ClCompile Include="week2.2.cpp" />
     <ClCompile Include="week2.3.cpp" />
+    <ClCompile Include="week2.4.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
