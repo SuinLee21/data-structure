@@ -145,8 +145,6 @@ void S_LinkedList::Merge(S_LinkedList list1, S_LinkedList list2) {
 	list1.temp_tail = list1.tail;
 	list1.tail->next = list2.head;
 	list1.tail = list2.tail;
-
-	cout << list1.temp_tail->elem << endl;
 }
 
 int main() {
